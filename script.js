@@ -50,7 +50,7 @@ function mainGame() {
     //Game Area
 
     //background colour
-    cvs.fillStyle = "black";
+    cvs.fillStyle = "grey";
     cvs.fillRect(0, 0, 400, 400);
 
     //Gridline
@@ -64,7 +64,7 @@ function mainGame() {
         cvs.lineTo(400, rl);
     }
 
-    cvs.strokeStyle = "gray";
+    cvs.strokeStyle = "grey";
     cvs.stroke();
 
     //Fruit
